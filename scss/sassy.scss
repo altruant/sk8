@@ -1,0 +1,82 @@
+$primary-color: #B5292E;
+$font-family-bold: 'Balsamiq Sans', serif;
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-image: url('../images/bg.jpg');
+  filter: brightness(.45) contrast(.8);
+  background-size: cover;
+  z-index: 0;
+}
+
+header {
+  display: flex;
+  padding: 10px 0;
+  font-family: $font-family-bold;
+  color: #fff;
+  justify-content: center;
+  padding-left: 355px;
+
+  .iconify {
+    margin: 0 5px;
+  }
+
+  [data-icon*='youtube'] {
+    background-color: #b03333;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+  }
+  [data-icon*='facebook'] {
+    background-color: #3b5998;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+  }
+  [data-icon*='rss'] {
+    background-color: #ee802f;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+  }
+  [data-icon*='twitter'] {
+    background-color: #00acee;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+  }
+  .socials {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 28px;
+    .text {
+      padding-right: 8px
+    }
+  }
+}
+
+nav.sk8-head {
+  span {
+    padding: 0 5px;
+  }
+  position: relative;
+  display: flex;
+  font-family: $font-family-bold;
+  font-size: 14px;
+  color: #fff;
+  .col {
+    padding: 0;
+  }
+}
+
+.navmap {
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 7px;
+  padding: 5px 15px;
+  background-color: $primary-color;
+}

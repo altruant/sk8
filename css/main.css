@@ -1,0 +1,81 @@
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/bg.jpg");
+  filter: brightness(0.45) contrast(0.8);
+  background-size: cover;
+  z-index: 0;
+}
+
+header {
+  display: flex;
+  padding: 10px 0;
+  font-family: "Balsamiq Sans", serif;
+  color: #fff;
+  justify-content: center;
+  padding-left: 355px;
+}
+header .iconify {
+  margin: 0 5px;
+}
+header [data-icon*=youtube] {
+  background-color: #b03333;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+}
+header [data-icon*=facebook] {
+  background-color: #3b5998;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+}
+header [data-icon*=rss] {
+  background-color: #ee802f;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+}
+header [data-icon*=twitter] {
+  background-color: #00acee;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+}
+header .socials {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 28px;
+}
+header .socials .text {
+  padding-right: 8px;
+}
+
+nav.sk8-head {
+  position: relative;
+  display: flex;
+  font-family: "Balsamiq Sans", serif;
+  font-size: 14px;
+  color: #fff;
+}
+nav.sk8-head span {
+  padding: 0 5px;
+}
+nav.sk8-head .col {
+  padding: 0;
+}
+
+.navmap {
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 7px;
+  padding: 5px 15px;
+  background-color: #B5292E;
+}
+
+/*# sourceMappingURL=main.css.map */
